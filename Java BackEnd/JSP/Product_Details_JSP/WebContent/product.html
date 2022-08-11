@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product Details</title>
+<style>
+
+div {
+  border-style: solid;
+  border-color: coral;
+  border: double;
+  padding:35px;
+}
+
+
+</style>
+</head>
+<body >
+<div>
+	<h1>Product Details</h1>
+	<form method="get" action="ProductsServlet">
+		Product's Name <input type="text" name="Pname"
+			style="font-size: 20px;" required="required" /><br>
+		<br>Product's Quantity:-<input type="text"
+			name="Quantity" style="font-size: 20px;"
+			required="required" /><br>
+		<br>Product's Price:-<input type="text" name="Price"
+			style="font-size: 20px;" required="required" /><br>
+		<br>
+		<button type="submit" value="save"
+			style="font-size: 25px;background-color: blue; ">Submit</button>
+	</form>
+	</div>
+</body>
+</html>
